@@ -1,0 +1,33 @@
+.aboutCom{
+    width: 100%;
+    background-color: white;
+    
+    .imageSection{
+        display: grid;
+        place-content: center;
+        padding-top: 30px;
+        
+        img{
+            width: 95%;
+            height: 90%;
+        }
+    }
+    
+    .aboutText{
+        padding-top: 40px;
+        section{
+            border-bottom: 2px solid #ffc451;
+            width: 35%;
+            font-size: 30px;
+            font-weight: bold;
+            color: #474747;
+        }
+        
+        p{
+            margin-top: 30px;
+            color: gray;
+            font-weight: 600;
+        }
+    }
+
+}
